@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+body {
+  padding: 3rem 0;
+  display: grid;
+  place-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(
+      115deg,
+      rgba(34, 34, 70, 0.8),
+      rgba(95, 95, 175, 0.8)
+    ),
+    url("https://www.forbes.com/advisor/wp-content/uploads/2022/06/freecodecamp.jpeg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+  background-color: rgba(27, 27, 50, 0.8);
+  background-blend-mode: multiply;
+  border-radius: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  flex-flow: column;
+  gap: 0.25rem;
+}
+
+button {
+  border: transparent;
+}
+
+button:hover {
+  background-color: rgba(27, 27, 50);
+  color: white;
+  border: 1px solid white;
+}
